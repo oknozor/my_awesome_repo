@@ -1,0 +1,157 @@
+# The configurations that used for the recording, feel free to edit them
+config:
+
+  # Specify a command to be executed
+  # like `/bin/bash -l`, `ls`, or any other commands
+  # the default is bash for Linux
+  # or powershell.exe for Windows
+  command: zsh
+  
+  # Specify the current working directory path
+  # the default is the current working directory path
+  cwd: /home/okno/_Workshop/MyRepos/my_awesome_repo
+  
+  # Export additional ENV variables
+  env:
+    recording: true
+  
+  # Explicitly set the number of columns
+  # or use `auto` to take the current
+  # number of columns of your shell
+  cols: 120
+  
+  # Explicitly set the number of rows
+  # or use `auto` to take the current
+  # number of rows of your shell
+  rows: 20
+  
+  # Amount of times to repeat GIF
+  # If value is -1, play once
+  # If value is 0, loop indefinitely
+  # If value is a positive number, loop n times
+  repeat: 0
+  
+  # Quality
+  # 1 - 100
+  quality: 100
+  
+  # Delay between frames in ms
+  # If the value is `auto` use the actual recording delays
+  frameDelay: auto
+  
+  # Maximum delay between frames in ms
+  # Ignored if the `frameDelay` isn't set to `auto`
+  # Set to `auto` to prevent limiting the max idle time
+  maxIdleTime: 2000
+  
+  # The surrounding frame box
+  # The `type` can be null, window, floating, or solid`
+  # To hide the title use the value null
+  # Don't forget to add a backgroundColor style with a null as type
+  frameBox:
+    type: floating
+    title: Terminalizer
+    style: []
+  
+  # Add a watermark image to the rendered gif
+  # You need to specify an absolute path for
+  # the image on your machine or a URL, and you can also
+  # add your own CSS styles
+  watermark:
+    imagePath: null
+    style:
+      position: absolute
+      right: 15px
+      bottom: 15px
+      width: 100px
+      opacity: 0.9
+      backgroundColor: #232628
+  
+  # Cursor style can be one of
+  # `block`, `underline`, or `bar`
+  cursorStyle: block
+  
+  # Font family
+  # You can use any font that is installed on your machine
+  # in CSS-like syntax
+  fontFamily: "Nerd Font, Fira Code, Monaco, Lucida Console, Ubuntu Mono, Monospace"
+  
+  # The size of the font
+  fontSize: 14
+  
+  # The height of lines
+  lineHeight: 1
+  
+  # The spacing between letters
+  letterSpacing: 0
+  
+  # Theme
+  theme:
+    background: "transparent"
+    foreground: "#afafaf"
+    cursor: "#c7c7c7"
+    black: "#232628"
+    red: "#fc4384"
+    green: "#b3e33b"
+    yellow: "#ffa727"
+    blue: "#75dff2"
+    magenta: "#ae89fe"
+    cyan: "#708387"
+    white: "#d5d5d0"
+    brightBlack: "#626566"
+    brightRed: "#ff7fac"
+    brightGreen: "#c8ed71"
+    brightYellow: "#ebdf86"
+    brightBlue: "#75dff2"
+    brightMagenta: "#ae89fe"
+    brightCyan: "#b1c6ca"
+    brightWhite: "#f9f9f4"
+  
+# Records, feel free to edit them
+records:
+  - delay: 854
+    content: "\e[1m\e[7m%\e[27m\e[1m\e[0m                                                                                                                       \r \r\e]0;okno@havre: ~/_Workshop/MyRepos/my_awesome_repo\a"
+  - delay: 10
+    content: "\e]2;okno@havre: ~/_Workshop/MyRepos/my_awesome_repo\a\e]1;.._awesome_repo\a"
+  - delay: 109
+    content: "\r\e[0m\e[27m\e[24m\e[J\r\n\e[1;36mmy_awesome_repo\e[0m on \e[1;35m \e[0m\e[1;35mmaster\e[0m is \e[1;38;5;208m\U0001F4E6 \e[0m\e[1;38;5;208mv0.1.0\e[0m via \e[1;31m⚙️ \e[0m\e[1;31mv1.58.0-nightly\e[0m\e[1;31m \e[0m\r\n\e[1;32m❯\e[0m \e[K\e[?1h\e=\e[?2004h"
+  - delay: 1932
+    content: "\e[32mg\e[39m\e[90mit status \e[39m\e[10D"
+  - delay: 108
+    content: "\b\e[1m\e[31mg\e[1m\e[31mi\e[0m\e[39m"
+  - delay: 64
+    content: "\b\b\e[0m\e[32mg\e[0m\e[32mi\e[32mt\e[39m"
+  - delay: 42
+    content: "\e[39m "
+  - delay: 166
+    content: "\e[39mt\e[90ma\e[90mg\e[90m \e[39m\e[39m \e[39m \e[39m \b\b\b\b\b\b"
+  - delay: 87
+    content: "\e[39ma"
+  - delay: 105
+    content: "\e[39mt\e[90mu\e[90ms \e[39m\b\b\b"
+  - delay: 610
+    content: "\b\e[90mg\e[90m \e[39m\e[39m \e[39m \b\b\b\b"
+  - delay: 109
+    content: "\b\e[90ma\b"
+  - delay: 107
+    content: "\b\e[90ms\e[90mt\e[90ma\e[90mt\e[90mus \e[39m\b\b\b\b\b\b\b"
+  - delay: 64
+    content: "\e[39m\e[4ms\e[24m"
+  - delay: 107
+    content: "\b\e[24ms\e[39mt"
+  - delay: 69
+    content: "\e[39ma"
+  - delay: 87
+    content: "\e[39mt"
+  - delay: 89
+    content: "\e[39mu"
+  - delay: 144
+    content: "\e[39m \e[39m \b"
+  - delay: 90
+    content: "\e[?1l\e>\e[?2004l\r\r\n\e]0;okno@havre: git statu\a\e]2;git statu\a\e]1;git\a"
+  - delay: 13
+    content: "git: 'statu' is not a git command. See 'git --help'.\r\n\r\nThe most similar commands are\r\n\tstatus\r\n\tstage\r\n\tstash\r\n\e[1m\e[7m%\e[27m\e[1m\e[0m                                                                                                                       \r \r\e]0;okno@havre: ~/_Workshop/MyRepos/my_awesome_repo\a\e]2;okno@havre: ~/_Workshop/MyRepos/my_awesome_repo\a\e]1;.._awesome_repo\a"
+  - delay: 137
+    content: "\r\e[0m\e[27m\e[24m\e[J\r\n\e[1;36mmy_awesome_repo\e[0m on \e[1;35m \e[0m\e[1;35mmaster\e[0m is \e[1;38;5;208m\U0001F4E6 \e[0m\e[1;38;5;208mv0.1.0\e[0m via \e[1;31m⚙️ \e[0m\e[1;31mv1.58.0-nightly\e[0m\e[1;31m \e[0m\r\n\e[1;31m❯\e[0m \e[K\e[?1h\e=\e[?2004h"
+  - delay: 2023
+    content: "\e[?2004l\r\r\n"

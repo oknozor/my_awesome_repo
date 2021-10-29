@@ -1,0 +1,11 @@
+pre_bump_hooks = []
+post_bump_hooks = []
+
+[commit_types]
+
+[changelog]
+github = false
+path = "CHANGELOG.md"
+authors = []
+
+[bump_profiles]
