@@ -1,0 +1,285 @@
+# The configurations that used for the recording, feel free to edit them
+config:
+
+  # Specify a command to be executed
+  # like `/bin/bash -l`, `ls`, or any other commands
+  # the default is bash for Linux
+  # or powershell.exe for Windows
+  command: zsh
+  
+  # Specify the current working directory path
+  # the default is the current working directory path
+  cwd: /home/okno/_Workshop/MyRepos/my_awesome_repo
+  
+  # Export additional ENV variables
+  env:
+    recording: true
+  
+  # Explicitly set the number of columns
+  # or use `auto` to take the current
+  # number of columns of your shell
+  cols: 100
+  
+  # Explicitly set the number of rows
+  # or use `auto` to take the current
+  # number of rows of your shell
+  rows: 15
+  
+  # Amount of times to repeat GIF
+  # If value is -1, play once
+  # If value is 0, loop indefinitely
+  # If value is a positive number, loop n times
+  repeat: 0
+  
+  # Quality
+  # 1 - 100
+  quality: 100
+  
+  # Delay between frames in ms
+  # If the value is `auto` use the actual recording delays
+  frameDelay: auto
+  
+  # Maximum delay between frames in ms
+  # Ignored if the `frameDelay` isn't set to `auto`
+  # Set to `auto` to prevent limiting the max idle time
+  maxIdleTime: 2000
+  
+  # The surrounding frame box
+  # The `type` can be null, window, floating, or solid`
+  # To hide the title use the value null
+  # Don't forget to add a backgroundColor style with a null as type
+  frameBox:
+    type: floating
+    title: Conventional commit with coco 
+    style: []
+  
+  # Add a watermark image to the rendered gif
+  # You need to specify an absolute path for
+  # the image on your machine or a URL, and you can also
+  # add your own CSS styles
+  watermark:
+    imagePath: null
+    style:
+      position: absolute
+      right: 15px
+      bottom: 15px
+      width: 100px
+      opacity: 0.9
+      backgroundColor: #232628
+  
+  # Cursor style can be one of
+  # `block`, `underline`, or `bar`
+  cursorStyle: block
+  
+  # Font family
+  # You can use any font that is installed on your machine
+  # in CSS-like syntax
+  fontFamily: "Nerd Font, Fira Code, Monaco, Lucida Console, Ubuntu Mono, Monospace"
+  
+  # The size of the font
+  fontSize: 18
+  
+  # The height of lines
+  lineHeight: 1
+  
+  # The spacing between letters
+  letterSpacing: 0
+  
+  # Theme
+  theme:
+    background: "transparent"
+    foreground: "#afafaf"
+    cursor: "#c7c7c7"
+    black: "#232628"
+    red: "#fc4384"
+    green: "#b3e33b"
+    yellow: "#ffa727"
+    blue: "#75dff2"
+    magenta: "#ae89fe"
+    cyan: "#708387"
+    white: "#d5d5d0"
+    brightBlack: "#626566"
+    brightRed: "#ff7fac"
+    brightGreen: "#c8ed71"
+    brightYellow: "#ebdf86"
+    brightBlue: "#75dff2"
+    brightMagenta: "#ae89fe"
+    brightCyan: "#b1c6ca"
+    brightWhite: "#f9f9f4"
+  
+# Records, feel free to edit them
+records:
+  - delay: 1064
+    content: "\e[1m\e[7m%\e[27m\e[1m\e[0m                                                                                                   \r \r\e]0;okno@havre: ~/_Workshop/MyRepos/my_awesome_repo\a"
+  - delay: 12
+    content: "\e]2;okno@havre: ~/_Workshop/MyRepos/my_awesome_repo\a\e]1;.._awesome_repo\a"
+  - delay: 109
+    content: "\r\e[0m\e[27m\e[24m\e[J\r\n\e[1;36mmy_awesome_repo\e[0m on \e[1;35m \e[0m\e[1;35mmaster\e[0m is \e[1;38;5;208m\U0001F4E6 \e[0m\e[1;38;5;208mv0.1.0\e[0m via \e[1;31m⚙️ \e[0m\e[1;31mv1.58.0-nightly\e[0m\e[1;31m \e[0m\r\n\e[1;32m❯\e[0m \e[K\e[?1h\e=\e[?2004h"
+  - delay: 873
+    content: "\e[1m\e[31me\e[0m\e[39m"
+  - delay: 87
+    content: "\b\e[1m\e[31me\e[1m\e[31mc\e[0m\e[39m"
+  - delay: 81
+    content: "\b\b\e[1m\e[31me\e[1m\e[31mc\e[1m\e[31mh\e[0m\e[39m"
+  - delay: 61
+    content: "\b\b\b\e[0m\e[32me\e[0m\e[32mc\e[0m\e[32mh\e[32mo\e[39m"
+  - delay: 131
+    content: ' '
+  - delay: 1048
+    content: "\e[33m\"\e[39m"
+  - delay: 444
+    content: "\b\e[33m\"\e[33mH\e[39m"
+  - delay: 135
+    content: "\b\e[33mH\e[33me\e[39m"
+  - delay: 154
+    content: "\b\e[33me\e[33ml\e[39m"
+  - delay: 127
+    content: "\b\e[33ml\e[33ml\e[39m"
+  - delay: 135
+    content: "\b\e[33ml\e[33mo\e[39m"
+  - delay: 201
+    content: "\b\e[33mo\e[33m \e[39m"
+  - delay: 203
+    content: "\b\e[33m \e[33mw\e[39m"
+  - delay: 289
+    content: "\b\e[33mw\e[33mo\e[39m"
+  - delay: 162
+    content: "\b\e[33mo\e[33mr\e[39m"
+  - delay: 117
+    content: "\b\e[33mr\e[33ml\e[39m"
+  - delay: 88
+    content: "\b\e[33ml\e[33md\e[39m"
+  - delay: 229
+    content: "\b\e[33md\e[33m\"\e[39m"
+  - delay: 860
+    content: ' '
+  - delay: 546
+    content: "\e[33m>\e[39m"
+  - delay: 151
+    content: ' '
+  - delay: 454
+    content: h
+  - delay: 113
+    content: e
+  - delay: 94
+    content: l
+  - delay: 258
+    content: l
+  - delay: 304
+    content: o
+  - delay: 159
+    content: ' '
+  - delay: 1221
+    content: '&'
+  - delay: 136
+    content: '&'
+  - delay: 84
+    content: ' '
+  - delay: 224
+    content: "\e[32mg\e[39m"
+  - delay: 173
+    content: "\b\e[1m\e[31mg\e[1m\e[31mi\e[0m\e[39m"
+  - delay: 144
+    content: "\b\b\e[0m\e[32mg\e[0m\e[32mi\e[32mt\e[39m"
+  - delay: 60
+    content: ' '
+  - delay: 165
+    content: a
+  - delay: 191
+    content: d
+  - delay: 376
+    content: d
+  - delay: 130
+    content: ' '
+  - delay: 555
+    content: h
+  - delay: 94
+    content: e
+  - delay: 196
+    content: l
+  - delay: 110
+    content: l
+  - delay: 137
+    content: o
+  - delay: 557
+    content: "\e[?1l\e>\e[?2004l\r\r\n\e]0;okno@havre: echo \"Hello world\" > hello && git add hello\a\e]2;echo \"Hello world\" > hello && git add hello\a\e]1;echo\a"
+  - delay: 6
+    content: "\e[1m\e[7m%\e[27m\e[1m\e[0m                                                                                                   \r \r\e]0;okno@havre: ~/_Workshop/MyRepos/my_awesome_repo\a\e]2;okno@havre: ~/_Workshop/MyRepos/my_awesome_repo\a\e]1;.._awesome_repo\a"
+  - delay: 130
+    content: "\r\e[0m\e[27m\e[24m\e[J\r\n\e[1;36mmy_awesome_repo\e[0m on \e[1;35m \e[0m\e[1;35mmaster\e[0m is \e[1;38;5;208m\U0001F4E6 \e[0m\e[1;38;5;208mv0.1.0\e[0m via \e[1;31m⚙️ \e[0m\e[1;31mv1.58.0-nightly\e[0m\e[1;31m \e[0m\r\n\e[1;32m❯\e[0m \e[K\e[?1h\e=\e[?2004h"
+  - delay: 768
+    content: "\e[1m\e[31mc\e[0m\e[39m\e[90md \e[39m\b\b"
+  - delay: 131
+    content: "\b\e[1m\e[31mc\e[1m\e[31mo\e[0m\e[39m\e[39m \b"
+  - delay: 43
+    content: "\b\b\e[1m\e[31mc\e[1m\e[31mo\e[1m\e[31mc\e[0m\e[39m"
+  - delay: 108
+    content: "\b\b\b\e[0m\e[32mc\e[0m\e[32mo\e[0m\e[32mc\e[32mo\e[39m"
+  - delay: 95
+    content: ' '
+  - delay: 1543
+    content: f
+  - delay: 131
+    content: e
+  - delay: 108
+    content: a
+  - delay: 132
+    content: t
+  - delay: 97
+    content: ' '
+  - delay: 202
+    content: "\e[33m\"\e[39m"
+  - delay: 393
+    content: "\b\e[33m\"\e[33ms\e[39m"
+  - delay: 112
+    content: "\b\e[33ms\e[33ma\e[39m"
+  - delay: 179
+    content: "\b\e[33ma\e[33my\e[39m"
+  - delay: 129
+    content: "\b\e[33my\e[33m \e[39m"
+  - delay: 398
+    content: "\b\e[33m \e[33mh\e[39m"
+  - delay: 108
+    content: "\b\e[33mh\e[33me\e[39m"
+  - delay: 110
+    content: "\b\e[33me\e[33ml\e[39m"
+  - delay: 100
+    content: "\b\e[33ml\e[33ml\e[39m"
+  - delay: 146
+    content: "\b\e[33ml\e[33mo\e[39m"
+  - delay: 87
+    content: "\b\e[33mo\e[33m \e[39m"
+  - delay: 196
+    content: "\b\e[33m \e[33mt\e[39m"
+  - delay: 171
+    content: "\b\e[33mt\e[33mo\e[39m"
+  - delay: 83
+    content: "\b\e[33mo\e[33m \e[39m"
+  - delay: 356
+    content: "\b\e[33m \e[33mt\e[39m"
+  - delay: 94
+    content: "\b\e[33mt\e[33mh\e[39m"
+  - delay: 99
+    content: "\b\e[33mh\e[33me\e[39m"
+  - delay: 89
+    content: "\b\e[33me\e[33m \e[39m"
+  - delay: 268
+    content: "\b\e[33m \e[33mw\e[39m"
+  - delay: 88
+    content: "\b\e[33mw\e[33mo\e[39m"
+  - delay: 134
+    content: "\b\e[33mo\e[33mr\e[39m"
+  - delay: 120
+    content: "\b\e[33mr\e[33ml\e[39m"
+  - delay: 118
+    content: "\b\e[33ml\e[33md\e[39m"
+  - delay: 233
+    content: "\b\e[33md\e[33m\"\e[39m"
+  - delay: 748
+    content: "\e[?1l\e>\e[?2004l\r\r\n\e]0;okno@havre: coco feat \"say hello to the world\"\a\e]2;coco feat \"say hello to the world\"\a\e]1;coco\a"
+  - delay: 25
+    content: "\e[33msay hello to the world\e[0m (\e[1mc361ee\e[0m) - now\r\n\t\e[1;32mAuthor:\e[0m Paul Delafosse\r\n\t\e[1;32mType:\e[0m feat\r\n\t\e[1;32mScope:\e[0m none\r\n\r\n\e[1m\e[7m%\e[27m\e[1m\e[0m                                                                                                   \r \r\e]0;okno@havre: ~/_Workshop/MyRepos/my_awesome_repo\a\e]2;okno@havre: ~/_Workshop/MyRepos/my_awesome_repo\a\e]1;.._awesome_repo\a"
+  - delay: 119
+    content: "\r\e[0m\e[27m\e[24m\e[J\r\n\e[1;36mmy_awesome_repo\e[0m on \e[1;35m \e[0m\e[1;35mmaster\e[0m is \e[1;38;5;208m\U0001F4E6 \e[0m\e[1;38;5;208mv0.1.0\e[0m via \e[1;31m⚙️ \e[0m\e[1;31mv1.58.0-nightly\e[0m\e[1;31m \e[0m\r\n\e[1;32m❯\e[0m \e[K\e[?1h\e=\e[?2004h"
+  - delay: 2131
+    content: "\e[?2004l\r\r\n"
